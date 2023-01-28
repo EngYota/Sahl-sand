@@ -85,7 +85,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
   // spinner
-  $(".loader ").fadeOut("slow");
+  $(".loading-area ").fadeOut("slow");
 
   //WOW js
   new WOW().init();
