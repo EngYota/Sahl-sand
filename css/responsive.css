@@ -22,6 +22,9 @@
         width: 77%;
         overflow: hidden;
     }
+    .banner-hero .features-list{
+        justify-content: space-between;
+    }
     .banner-homepage .banner-inner .row .block-banner {
         padding-right: 0px;
         padding-top: 40px;
@@ -329,6 +332,15 @@
         font-size: 20px !important;
         margin-bottom: 0;
     }
+    .banner-hero .heading-title{
+        margin-bottom: 0;
+    }
+    .banner-hero .features-list {
+        justify-content: center;
+    }
+    .banner-hero .features-list .feature-item{
+        margin-bottom: 20px;
+    }
     .banner-homepage .btn.btn-default{
         margin-left: 10px;
     }
@@ -542,7 +554,7 @@
         right: -107%;
     }
     .banner-hero .heading-banner {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
     .banner-homepage .btn{
         display: block;
@@ -553,6 +565,18 @@
     }
     .banner-hero .banner-description {
         font-size: 14px;
+    }
+    .banner-hero .features-list .feature-item .feature__icon {
+        width: 55px;
+        height: 55px;
+        font-size: 27px;
+    }
+    .banner-hero .features-list .feature-item{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .banner-hero .features-list .feature-item .feature__title{
+        font-size: 13px;
     }
     .about-services-box{
         width: 302px;
@@ -680,4 +704,12 @@
     margin-left: 0;
     margin-right: 0;
 }
+.daily-title h1{
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .daily-title p{
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+  }
  }

@@ -461,7 +461,7 @@ header .headerAnimate {
   transition: 0.5s ease;
   width: 100%;
   -o-object-fit: contain;
-  margin-top: 15px;
+  margin-top: 0px;
   object-fit: contain;
 }
 @media (max-width: 480px) {
@@ -474,7 +474,7 @@ header .headerAnimate {
   align-items: center;
 }
 .navbar .nav-link {
-    color: #292929;
+    color: #fff;
     transition: all 0.3s ease-in-out;
     font-size: 15.5px;
     position: relative;
@@ -483,6 +483,9 @@ header .headerAnimate {
     margin: 0 3px;
     padding: 8px 4px;
     font-weight: 600;
+}
+.navbar.headerAnimate .nav-link {
+  color: #292929;
 }
 .navbar .nav-link i {
   font-size: 14px;
@@ -512,6 +515,15 @@ header .headerAnimate {
   border-radius: 16px;
   padding: 8px 24px !important;
   transition: all 0.3s ease-in-out !important;
+}
+.navbar .dark-logo{
+  display: none;
+}
+.navbar.headerAnimate .dark-logo{
+  display: block;
+}
+.navbar.headerAnimate .white-logo{
+  display: none;
 }
 .navbar .sideBtn {
   position: relative;
@@ -3756,4 +3768,30 @@ header .headerAnimate {
 .musaned-platform .detail-info p{
   font-size: 15px;
   color: #f1f1f1;
+}
+.daily-title h1{
+  font-size: 35px;
+  margin: 30px 0;
+}
+.daily-title p{
+  font-size: 18px;
+  margin: 5px 0 20px 0;
+}
+.daily-details .site-button {
+  outline: none;
+  color: #fff;
+  padding: 10px 61px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #1967d2;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s all ease;
+  color: rgba(0, 0, 0, 0) !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
 }
