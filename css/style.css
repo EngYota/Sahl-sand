@@ -1755,7 +1755,8 @@ header .headerAnimate {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.1;
+  background: #221bff;
+  opacity: 0.3;
 }
 .Contact-section .Contact-title{
   margin-bottom: 50px;
@@ -2005,7 +2006,7 @@ header .headerAnimate {
 }
 /* ===========================================Page-banner ==================================== */
 .page-banner{
-  background-image: url(../images/banner/page-content.jpg);
+  background-image: url(../images/banner/s2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 290px;
@@ -2030,7 +2031,7 @@ header .headerAnimate {
   margin-bottom: 30px;
 }
 .page-banner .banner-title .banner-title-name h2 {
-  color: #17171d;
+  color: #fff;
   font-size: 34px;
   text-align: center;
   font-weight: 600;
@@ -2052,7 +2053,7 @@ header .headerAnimate {
   color: #1967d2;
 }
 .page-banner .page-breadcrump li a {
-  color: #17171d;
+  color: #ffffff;
 }
 .page-banner .page-breadcrump li:after {
   content: "";
@@ -2060,15 +2061,15 @@ header .headerAnimate {
   left: 8px;
   width: 8px;
   height: 2px;
-  background-color: #17171d;
+  background-color: #fff;
   top: 59%;
   transform: translateY(-50%);
-  color: #17171d;
+  color: #fff;
   font-size: 12px;
   font-weight: 600;
 }
 .page-banner .page-breadcrump li:last-child {
-  color: #1967d2;
+  color: #ffffff;
   padding: 0px;
 }
 .page-banner .page-breadcrump li:last-child::after{
