@@ -538,10 +538,13 @@ header .headerAnimate {
   position: absolute;
   display: block;
   width: 24px;
-  height: 2px;
-  background-color: #1014ab;
+  height: 3px;
+  background-color: #fff;
   margin: 4px 0;
-  transition: width 0.3s, transform 0.5s, opacity 0.3s;
+  transition: width 0.3s, transform 0.5s, opacity 0.9s;
+}
+.navbar.headerAnimate .sideBtn span {
+  background-color: #0d1298;
 }
 .navbar .sideBtn span:first-child {
   top: 0;
@@ -3803,24 +3806,23 @@ header .headerAnimate {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0px 12px 45px rgba(0, 0, 0, .15);
-	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin: 0 0 10px 0;
 	overflow: hidden;
 	opacity: 0;
 }
 .ads-float-popup.open {
-	height: 520px;
+	height: 470px;
 	opacity: 1;
 }
 .ads-float-popup.popup-ani {
 	-webkit-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.ads-float-popup header{
+/* .ads-float-popup header{
   border-bottom: 1px solid #cfcaca;
   margin: 6px 30px;
-}
+} */
 .ads-float-popup img{
   width: 218px;
   height: 75px;
@@ -3832,6 +3834,7 @@ header .headerAnimate {
   padding: 5px 0;
   margin: 0;
   font-weight: 500;
+  margin-top: 12px;
 }
 .ads-float-popup .ads-content .ads-img{
   border-radius: 12px;
@@ -3866,9 +3869,9 @@ header .headerAnimate {
 	transition: 0.5s linear;
 	-webkit-transition: 0.5s linear;
 }
-.ads-float-popup .img {
+/* .ads-float-popup .img {
 	background-image: url("https://4.bp.blogspot.com/-1J75Et4_5vc/WAYhWRVuMiI/AAAAAAAAArE/gwa-mdtq0NIqOrlVvpLAqdPTV4VAahMsQCPcB/s1600/barrel-we-love-subscribers-img.png");
-}
+} */
 .button-float-ads {
 	width: 65px;
 	height: 65px;
@@ -3913,7 +3916,7 @@ header .headerAnimate {
 .ads-popup{
 	position: fixed;
 	right: 25px;
-	bottom: 25px;
+	bottom:10px;
 	z-index: 1000;
 }
 .ba-settings {
@@ -3924,4 +3927,16 @@ header .headerAnimate {
 	background-color: #555;
 	border-radius: 5px;
 	color: #fff;
+}
+.ads-button {
+  color: #fff;
+  background: #1014ab;
+  border: 1px solid #1014ab;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 35px 8px;
+}
+.ads-button:hover{
+  color: #fff;
 }

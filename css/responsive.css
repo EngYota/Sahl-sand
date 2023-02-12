@@ -358,7 +358,7 @@
     }
     .about-services-box .ab-serv-box-details .about-media {
         position: absolute;
-        left: -21px;
+        left: -10px;
         top: -33px;
         width: 81px;
         height: 62px;
@@ -542,6 +542,9 @@
     margin-bottom: 26px;
     margin-left: 0;
     margin-right: 0;
+}
+.ads-popup{
+    right: 0;
 }
  }
 
