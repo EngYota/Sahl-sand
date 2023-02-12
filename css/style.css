@@ -3796,3 +3796,132 @@ header .headerAnimate {
   transition: all 0.3s ease !important;
   text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
 }
+/* ========================================= floating-button ===================================== */
+.ads-float-popup {
+	width: 380px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0px 12px 45px rgba(0, 0, 0, .15);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+	opacity: 0;
+}
+.ads-float-popup.open {
+	height: 520px;
+	opacity: 1;
+}
+.ads-float-popup.popup-ani {
+	-webkit-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.ads-float-popup header{
+  border-bottom: 1px solid #cfcaca;
+  margin: 6px 30px;
+}
+.ads-float-popup img{
+  width: 218px;
+  height: 75px;
+  padding: 13px 0 10px;
+}
+.ads-float-popup h1 {
+  font-size: 24px;
+  color: #0d1298;
+  padding: 5px 0;
+  margin: 0;
+  font-weight: 500;
+}
+.ads-float-popup .ads-content .ads-img{
+  border-radius: 12px;
+  width:290px;
+  height: 250px;
+  margin: auto;
+}
+.ads-float-popup .ads-content img {
+  width: 290px;
+  height: 250px;
+  border-radius: 8px;
+}
+.ads-float-popup .ads-detail li{
+  border: 1px solid #0d1298;
+    padding: 8px 13px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 5px 6px 10px;
+}
+.ads-float-popup .ba-logo {
+	width: 65px;
+	height: 25px;
+	background-position: 0px;
+	margin: 0 auto;
+	opacity: .5;
+	cursor: pointer;
+}
+.ads-float-popup .ba-logo:hover {
+	opacity: 1;
+}
+.logo-ani {
+	transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+}
+.ads-float-popup .img {
+	background-image: url("https://4.bp.blogspot.com/-1J75Et4_5vc/WAYhWRVuMiI/AAAAAAAAArE/gwa-mdtq0NIqOrlVvpLAqdPTV4VAahMsQCPcB/s1600/barrel-we-love-subscribers-img.png");
+}
+.button-float-ads {
+	width: 65px;
+	height: 65px;
+	background-color: #0d1298;
+	border-radius: 30px;
+	float: right;
+	box-shadow: 0px 12px 45px rgba(0, 0, 0, .3);
+	z-index: 5;
+	position: relative;
+}
+.button-float-ads .img-fab {
+	height: 40px;
+	width: 50px;
+	margin: 15px auto;
+	background-image: url("../images/icons/ads.png");
+	background-position: -1px -53px;
+  background-position: center;
+  background-size: cover;
+}
+.button-float-ads .wrap {
+	transform: rotate(0deg);
+	-webkit-transition: all .15s cubic-bezier(0.15, 0.87, 0.45, 1.23);
+	transition: all .15s cubic-bezier(0.15, 0.87, 0.45, 1.23);
+}
+.button-float-ads .ani {
+	transform: rotate(45deg);
+	-webkit-transition: all .15s cubic-bezier(0.15, 0.87, 0.45, 1.23);
+	transition: all .15s cubic-bezier(0.15, 0.87, 0.45, 1.23);
+}
+.button-float-ads .close {
+  background-image: url("https://4.bp.blogspot.com/-1J75Et4_5vc/WAYhWRVuMiI/AAAAAAAAArE/gwa-mdtq0NIqOrlVvpLAqdPTV4VAahMsQCPcB/s1600/barrel-we-love-subscribers-img.png");
+	background-position: -2px 1px;
+  height: 30px;
+  width: 30px;
+  background-size: auto;
+	transform: rotate(-45deg);
+	float: none;
+	/*Bootstrap Overide*/
+	opacity: 1;
+	/*Bootstrap Overide*/
+}
+.ads-popup{
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	z-index: 1000;
+}
+.ba-settings {
+	position: absolute;
+	top: -25px;
+	right: 0px;
+	padding: 10px 20px;
+	background-color: #555;
+	border-radius: 5px;
+	color: #fff;
+}

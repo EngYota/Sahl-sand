@@ -129,19 +129,9 @@ $(document).ready(function () {
     );
   });
 })();
-// multi step
-
-
-
-
-
-
-
-
-
-
-
-
-// /////////////////////////////
-// /////////////////////////////
-// /////////////////////////////
+// floating-button
+$(".button-float-ads").click(function() {
+	$('.button-float-ads .wrap').toggleClass("ani");
+	$('.ads-float-popup').toggleClass("open");
+	$('.img-fab.img').toggleClass("close");
+});
