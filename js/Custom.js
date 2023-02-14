@@ -109,6 +109,12 @@ $(document).ready(function () {
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
   });
+  // floating-button
+$(".button-float-ads").click(function() {
+	$('.button-float-ads .wrap').toggleClass("ani");
+	$('.ads-float-popup').toggleClass("open");
+	$('.img-fab.img').toggleClass("close");
+});
 });
 
 // validation
@@ -129,9 +135,4 @@ $(document).ready(function () {
     );
   });
 })();
-// floating-button
-$(".button-float-ads").click(function() {
-	$('.button-float-ads .wrap').toggleClass("ani");
-	$('.ads-float-popup').toggleClass("open");
-	$('.img-fab.img').toggleClass("close");
-});
+
